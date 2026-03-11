@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://kzhxasocdxvbeedszoiq.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt6aHhhc29jZHh2YmVlZHN6b2lxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMjc2OTgsImV4cCI6MjA4ODgwMzY5OH0.PfAZabIE2NDSoVo6bC2rKTCiTWYD1pSFfqsPJRTUqi4";
+const SUPABASE_URL = "https://mvjbtktibnvrzsszfwjo.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im12amJ0a3RpYm52cnpzc3pmd2pvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMzYyNzQsImV4cCI6MjA4ODgxMjI3NH0.kJIRwd1dA0Z6JLuw44zIWMV_GWKuKxaCmCf42oTYfuA";
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
@@ -31,3 +31,4 @@ document.getElementById("studentForm").reset();
 
 
 });
+
